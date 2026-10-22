@@ -1,0 +1,28 @@
+SITE ALDAS CONSULTORIA - COMO PUBLICAR
+
+Arquivos
+- index.html  : o site completo (um único arquivo, com logo e fotos embutidas)
+- og-cover.jpg: imagem de capa que aparece quando o link é compartilhado (1200x630)
+- favicon.png : ícone da aba do navegador
+
+PASSO 1 - Publicar
+Opção mais simples (grátis): Netlify Drop. Acesse app.netlify.com/drop e arraste esta pasta inteira
+(já descompactada). Em segundos você recebe um endereço público.
+Outras opções: Vercel, GitHub Pages, ou hospedagem tradicional (envie os 3 arquivos para a pasta public_html).
+
+PASSO 2 - Ativar a capa no compartilhamento (importante)
+As redes e o WhatsApp só leem a capa se o endereço da imagem for completo. Abra o index.html
+em um editor de texto e troque, em todos os lugares, o texto
+    https://SEU-SITE.com.br
+pelo endereço real do site (exemplo: https://aldasconsultoria.com.br), sem barra no final.
+Ele aparece 4 vezes (canonical, og:url, og:image, twitter:image). Salve e publique de novo.
+
+PASSO 3 - Testar a capa
+- WhatsApp: envie o link para você mesma(o). Se a capa não aparecer, aguarde alguns minutos.
+- Se você já enviou o link antes de ajustar, o WhatsApp pode guardar a versão antiga. Para forçar a atualização,
+  use o Depurador de Compartilhamento da Meta (developers.facebook.com/tools/debug) e clique em "Coletar novamente".
+- LinkedIn: use o Post Inspector (linkedin.com/post-inspector).
+
+OUTROS AJUSTES NO index.html (procure no trecho <script> do final)
+- WHATSAPP_NUMBER: número do WhatsApp (já configurado: 5521983158780)
+- Textos dos feedbacks: lista FEEDBACKS
